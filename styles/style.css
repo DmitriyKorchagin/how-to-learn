@@ -19,7 +19,6 @@
   color: #000000;
   background-color: #f2f2f2;
   overflow: hidden;
-  border: solid red 1px;
   padding-left: 64px;
   z-index: -2;
 
@@ -42,12 +41,10 @@
   font-weight: bold;
   line-height: 96px;
   align-items: center;
-  border: solid rgb(0, 255, 123) 3px;
 }
 
  .header-subtitle {
    position: absolute;
-   border: blue solid 1px;
    bottom: 30px;
    width: 388px;
    font-size: 18px;
@@ -67,14 +64,50 @@
   position: absolute;
   right: 0;
   z-index: -1;
-  border: 3px solid #2f80ed;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
   top: 64px;
 }
+/* секция description */
+.description {
+  display: flex;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  bottom: 100px;
+  height: 350px;
+  border: 1px solid red;
+  width: 80%;
 
-/* и элемента с модификатором вида ключ-значение */
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%
+  border: 2px solid black;
+}
+
+.description-brief {
+  display: flex;
+  height: 100%;
+  width: 175px;
+  border: 1px solid green;
+}
+
+.text__brief {
+  font-size: 18px;
+}
+.main-text__two-columns{
+ display: flex;
+ height: 100%;
+ width: 175px;
+ border: 3px solid rgb(128, 47, 0);
+
+}
+,/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
