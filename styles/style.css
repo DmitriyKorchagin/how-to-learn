@@ -7,19 +7,71 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+  }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  color: #000000;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  border: solid red 1px;
+  padding-left: 64px;
+  z-index: -2;
+
+  }
+
+.logo {
+  }
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  min-width: 183px;
+  min-height: 35px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header-title {
+  display: flex;
+  width: 730px;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+  align-items: center;
+  border: solid rgb(0, 255, 123) 3px;
+}
+
+ .header-subtitle {
+   position: absolute;
+   border: blue solid 1px;
+   bottom: 30px;
+   width: 388px;
+   font-size: 18px;
+   line-height: 25px;
+   z-index: 2;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+}
+
 .header__square-pic {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  border: 3px solid #2f80ed;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
