@@ -49,6 +49,7 @@
    width: 388px;
    font-size: 18px;
    line-height: 25px;
+   font-weight: normal;
    z-index: 2;
 }
 
@@ -102,6 +103,7 @@
   font-size: 24px;
   line-height: 34px;
   margin: 15px 0;
+  font-weight: normal;
 }
 /* убираем лишние отступы 1 и 3 параграфы. другое решение не придумал */
 .paragraph__two-columns:first-of-type {
@@ -117,10 +119,63 @@
   font-size: 24px;
   line-height: 34px;
   font-weight: bold;
+}
+
+/* секция digits */
+.section__title {
+  margin: 100px auto 0;
+  text-align: center;
+  width: 60%;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.section__subtitle {
+  margin: 20px auto 0;
+  text-align: center;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto 100px;
+
 
 
 }
-,/* и элемента с модификатором вида ключ-значение */
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  border: 1px solid red;
+
+
+}
+
+.table__heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+
+}
+
+.table__text {
+  border: 1px solid green;
+  margin-top: 20 0 0 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+
+
+/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
