@@ -81,14 +81,16 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
+
 }
 
 .two-columns__brief {
   width: 175px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
+  margin: 0;
 }
 
 .main-text__two-columns {
@@ -123,20 +125,29 @@
 
 /* секция digits */
 .section__title {
-  margin: 100px auto 0;
+  margin: 0 auto;
   text-align: center;
-  width: 60%;
-  font-size: 60px;
   font-weight: bold;
   line-height: 1.15;
+
 }
 
-.section__subtitle {
-  margin: 20px auto 0;
-  text-align: center;
+.section__title-place-digits {
+  margin-top: 100px;
+  font-size: 60px;
   width: 60%;
-  line-height: 34px;
+}
+
+
+.section__subtitle {
+  text-align: center;
+}
+
+.section__subtitle-place-digits {
+  width: 60%;
+  margin: 20px auto 0;
   font-size: 24px;
+  line-height: 34px;
 }
 
 .table {
@@ -144,18 +155,16 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
+  }
+
+.table-place-digits {
   margin: 0 auto 100px;
-
-
-
 }
+
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  border: 1px solid red;
-
-
 }
 
 .table__heading {
@@ -166,19 +175,97 @@
 }
 
 .table__text {
-  border: 1px solid green;
   margin-top: 20 0 0 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
 }
 
+/*     блок Feynman     */
 
+.feynman {
+  height: 790px;
+  position: relative;
+  padding-top: 100px;
+  background-image: url(../images/feynman.png);
+  background-color: #f2f2f2;
+  background-size: 867px 637px;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+ }
+
+.section__title-place-feynman {
+  font-size: 120px;
+  width: 648px;
+}
+
+
+.section__subtitle-place-feynman {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 70px;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  color: #000;
+}
+
+              /*    блок kaufman     */
 
 /* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  background-color: #000;
+  padding: 90px 0;
+  overflow: hidden;
+}
+
+.table__theme_dark {
+  margin: 0 auto;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
+  border: 1px solid red;
 }
+
+.section__title_place_kaufman {
+  line-height: 1.15;
+  font-size: 61px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid green;
+}
+
+.section__subtitle_place_kaufman {
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-size: 26px;
+  font-weight: normal;
+  width: 60%;
+  color: white;
+  border: 1px solid green;
+}
+
+.table__heading_theme_dark {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
