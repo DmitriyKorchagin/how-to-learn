@@ -312,7 +312,7 @@
   height: 35px;
 }
 
-/*Правая часть*/
+
 
 .footer__column_author {
   padding: 18px 0;
@@ -329,12 +329,12 @@
 
 }
 
-
 .footer__column_heading {
   font-size: 18px;
   color: white;
   font-weight: normal;
   line-height: 30px;
+  margin-top: 0;
  }
 
 .footer__column_links {
@@ -343,17 +343,10 @@
   line-height: 30px;
   font-weight: normal;
   color: white;
-
-
-.footer__column_social {
-  flex-flow: column-reverse;
 }
 
 .footer__social-icon {
   margin: 20px 0 16px;
-
-
-.link {
-  font-size: 10px;
 }
+
 
