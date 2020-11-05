@@ -20,14 +20,11 @@
   background-color: #f2f2f2;
   overflow: hidden;
   padding-left: 64px;
-  z-index: -2;
-
-  }
+}
 
 .header-link {
   text-decoration: underline;
-  z-index: 1;
-  }
+}
 
 .logo_place_header {
   position: absolute;
@@ -52,7 +49,6 @@
    font-size: 18px;
    line-height: 25px;
    font-weight: normal;
-   z-index: 2;
 }
 
 .header__main-illustration {
@@ -61,12 +57,13 @@
   right: 0;
   width: 765px;
   height: 608px;
+  z-index: 2;
 }
 
 .header__square-pic {
   position: absolute;
   right: 0;
-  z-index: -1;
+  z-index: 1;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -345,7 +342,7 @@
 }
 
 .footer__social-icon {
- /* margin: 20px 0 16px;
+  margin: 20px 0 16px;
 }
 
 
