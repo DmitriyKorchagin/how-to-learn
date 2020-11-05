@@ -23,7 +23,7 @@
 }
 
 .header-link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .logo_place_header {
@@ -42,7 +42,7 @@
   align-items: center;
 }
 
- .header-subtitle {
+ .header__subtitle {
    position: absolute;
    bottom: 30px;
    width: 388px;
@@ -170,7 +170,7 @@
 }
 
 .table__text {
-  margin-top: 20 0 0 0;
+  margin-top: 20px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
