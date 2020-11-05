@@ -334,7 +334,6 @@
   color: white;
   font-weight: normal;
   line-height: 30px;
-  margin-top: 0;
  }
 
 .footer__column_links {
@@ -346,7 +345,7 @@
 }
 
 .footer__social-icon {
-  margin: 20px 0 16px;
+ /* margin: 20px 0 16px;
 }
 
 
