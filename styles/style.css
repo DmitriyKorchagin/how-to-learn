@@ -9,18 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  color: #000000;
-  background-color: #f2f2f2;
-  overflow: hidden;
-  padding-left: 64px;
-}
+
 
 .header__link {
   text-decoration: none;
