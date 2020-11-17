@@ -1,0 +1,7 @@
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid blueviolet;
+    
+}
